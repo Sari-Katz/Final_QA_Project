@@ -15,9 +15,10 @@ public class HomePage extends BasePage {
         driver.get("https://www.petitclair.com/");
     }
 
-    public void goToCategoryByName(String name){
-        click(By.xpath("//a[contains(text(),'" + name + "')]"));
+    public void goToCategory(String name) {
+        click(By.cssSelector("a.header__item[aria-label='" + name + "']"));
     }
+
 }
 
 
