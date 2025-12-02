@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PetitClairSuite">
+
+    <test name="PetitClair Tests">
+        <classes>
+            <!-- בדיקות אמיתיות בלבד -->
+            <class name="tests.CartTest"/>
+          
+        </classes>
+    </test>
+
+</suite>
