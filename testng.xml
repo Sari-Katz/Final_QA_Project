@@ -5,7 +5,8 @@
         <classes>
             <!-- בדיקות אמיתיות בלבד -->
             <class name="tests.CartTest"/>
-          
+            <class name="tests.RegistrationTest"/>
+            <class name="tests.DynamicContentTest"/>
         </classes>
     </test>
 
